@@ -1,7 +1,9 @@
 
-public class ContaBancaria {
+public abstract class ContaBancaria {
 	private String titular;
-	private double saldo;
+	protected double saldo;
+	private String Tipo;
+	private String conta;	
 	private int numero;
 	
 	public ContaBancaria(String nome, int conta) {
@@ -17,9 +19,20 @@ public class ContaBancaria {
 		this.saldo += valor;
 	}
 	
-	public void saque(double valor) {
-		this.saldo -= valor;
+	public abstract void saque(double valor);
+
+	public abstract String getTipo();
+
+	public String getConta() {
+		return conta;
 	}
+
+	public String getTitular() {
+		return titular;
+	}
+	
+	
+	
 	
 
 }
