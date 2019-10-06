@@ -1,3 +1,4 @@
+package aula;
 
 public class Pessoa {
 	private String nome;

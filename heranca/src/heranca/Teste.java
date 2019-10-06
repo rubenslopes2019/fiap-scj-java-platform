@@ -4,13 +4,13 @@ public class Teste {
 
 	public static void main(String[] args) {
 		
-		Funcionario f1 = new Funcionario();
-		f1.setNome("paulo");
-		f1.setNumero(1232);
+	//	Funcionario f1 = new Funcionario();
+	//	f1.setNome("paulo");
+	//	f1.setNumero(1232);
 		
 		Funcionario[] arrayFunc = new Funcionario[3];
-		arrayFunc[0] =  f1;
-		arrayFunc[1] = new Funcionario(5656,"Pepe");
+	//	arrayFunc[0] =  f1;
+	//	arrayFunc[1] = new Funcionario(5656,"Pepe");
 		arrayFunc[2] = new Motorista(5656, "Satan");
 		
 		
@@ -27,7 +27,7 @@ public class Teste {
 		
 		
 		ControleBonificacao cb = new ControleBonificacao();
-		cb.registra(f1);
+	//	cb.registra(f1);
 		cb.registra(arrayFunc[2]);
 		
 		System.out.println(cb.getTotalBonificacao());
