@@ -19,6 +19,10 @@ public class ContaCorrente {
 		return (conta.cpf.equals(this.cpf));
 		
 	}
+	
+	
+	
+	
 
 	private double saldo;
 
