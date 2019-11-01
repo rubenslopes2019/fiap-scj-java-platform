@@ -1,3 +1,5 @@
+import java.time.LocalDate;
+
 import javax.swing.JOptionPane;
 
 public class TesteErro {
@@ -21,7 +23,7 @@ public class TesteErro {
 
 	private static void metodo2() {
 		System.out.println("inicio metodo2");
-		ContaCorrente cc = new ContaCorrente();
+		ContaCorrente cc = new ContaCorrente("beltrana", "rua 2", "123456789", LocalDate.of(2010, 11, 24));
 		metodo3(cc);
 
 //		try {
@@ -45,13 +47,19 @@ public class TesteErro {
 		cc.deposita(valueDeposita);
 		System.out.println("valor final: " + cc.getSaldo());
 
+		ContaCorrente c2 = new ContaCorrente("fulano", "rua 1", "1234560789", LocalDate.of(2000, 10, 20));
+
+		boolean cpf = cc.equals(c2);
+
 		Double valueSacado = Double.valueOf(JOptionPane.showInputDialog("valor de saque"));
 		try {
 			cc.saca(valueSacado);
-			System.out.println("valor final: " + cc.getSaldo());
 		} catch (SaldoInsuficiente e) {
-			System.out.println("Saldo insuficiente");
+			e.printStackTrace();
 		}
+		System.out.println("valor final: " + cc.getSaldo());
+		System.out.println("cpf é igual? " + cpf);
+		System.out.println("data de nascimento: " + cc.dataNascimento);
 
 	}
 
