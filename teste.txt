@@ -5,3 +5,18 @@ instagram.com/evolve.mvp
 bytecode é class
 
 interface é um contrato
+
+armazenar reposta aceitas. - persistencia.
+
+exceções checked -é forçado tratar / não compila 
+unchecked
+
+
+throwable
+- exception  - io - fileNotFound - são checked
+            - runtime- nullPointer, classCast, Array Index OutOfBounds - são unchecked
+
+
+
+
+
