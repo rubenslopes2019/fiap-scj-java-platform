@@ -60,7 +60,6 @@ public class TesteErro {
 		System.out.println("valor final: " + cc.getSaldo());
 		System.out.println("cpf é igual? " + cpf);
 		System.out.println("data de nascimento: " + cc.dataNascimento);
-
 	}
 
 }
