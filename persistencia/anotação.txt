@@ -1,0 +1,5 @@
+perguntar o pq usa tal solução. e se está resolvendo o problema.
+
+banco de dados - construido para ter integridade
+
+ansowere - criptografa  o banco dentro do cliente.
