@@ -7,3 +7,4 @@ ansowere - criptografa  o banco dentro do cliente.
 twiter e facebook utiliza 3 camadas de cache.
 
 xampp
+
