@@ -8,3 +8,4 @@ twiter e facebook utiliza 3 camadas de cache.
 
 xampp
 
+teste
