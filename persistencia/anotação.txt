@@ -9,3 +9,30 @@ twiter e facebook utiliza 3 camadas de cache.
 xampp
 
 teste
+
+
+parametrizar dentro do arquivo concentrado.
+mapeamento xml.
+
+3 maneira de manipular dados, via HQL, via API Criteria, via SQL nativo (não usar).
+
+
+jpa - é uma especificação - diversas bibliotecas
+
+hibernate implementa jpa
+
+excluir classe não mapeadas dentro do persiste.
+
+value=update ->>> criar a tebela ou atualiza a existente.
+
+spring data =
+
+design pattern - padrao
+dao - abstrai o acesso a chamada ao bd.
+
+spring initializr - gera o pré projeto seguindo convenções
+
+firehose - twiter - truput aguentar o pico pode chegar em até TERA - 25GB/S
+
+
+
