@@ -34,5 +34,9 @@ spring initializr - gera o pré projeto seguindo convenções
 
 firehose - twiter - truput aguentar o pico pode chegar em até TERA - 25GB/S
 
+projeto criado em maven, suporta outras linguagens.
+
+
+@Component - não mantem o objeto, repassa 
 
 
