@@ -40,3 +40,5 @@ projeto criado em maven, suporta outras linguagens.
 @Component - não mantem o objeto, repassa 
 
 
+infoq.com palestra de arquitetura
+
