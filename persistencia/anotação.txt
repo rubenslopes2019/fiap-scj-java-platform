@@ -69,3 +69,5 @@ mobile 5s a cada segundo aumenta em 20% a desistencia
 
 
 post : http://localhost:8080/spring-app/estoque/produto/  body: {"nome": "iphone"}
+
+keys *
