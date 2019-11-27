@@ -1,0 +1,8 @@
+Distributed Cache in Redis:
+https://dzone.com/articles/java-distributed-caching-in-redis
+
+Documentação do EHCache (tem uns exemplos e explicação de conceitos interessantes em caching):
+http://www.ehcache.org/documentation/3.7/
+
+Caching in Spring:
+https://www.baeldung.com/spring-cache-tutorial

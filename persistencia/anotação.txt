@@ -40,8 +40,32 @@ projeto criado em maven, suporta outras linguagens.
 @Component - não mantem o objeto, repassa 
 
 
-infoq.com palestra de arquitetura
+infoq.com palestra de arquitetura - twiter
 
 
 ----
 
+cache fica em paralelo
+
+Spring Data
+JPA
+mysql
+
+redis - facil escalonamento horizontal - incluir mais vm -paralelo - cluster
+vertical - aumentar a capacidade de cada vm - memoria/disco
+
+males - otimização precoce.
+
+2 mil servidores- mainframe - 14 m de dolares.
+
+/\ hitrate
+\/ missRate
+\/ MissPenalt - errou e precisa acessar o bd
+
+twiter - 200 servidores de cache.
+
+depois de 5s a cada segundo aumenta em 10% a desistencia
+mobile 5s a cada segundo aumenta em 20% a desistencia
+
+
+post : http://localhost:8080/spring-app/estoque/produto/  body: {"nome": "iphone"}
