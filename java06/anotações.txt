@@ -42,6 +42,8 @@ listaCliente.forEach(System.out::println);>>>methodo refer
 assincrono - um processo por vez
 sincrono - processo paralelo
 
+implements Runnable
+
 
 
 
