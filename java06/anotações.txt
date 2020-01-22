@@ -44,6 +44,16 @@ sincrono - processo paralelo
 
 implements Runnable
 
+bean - classe gerenciavel.
+
+java ee - jakarta - especificação
+
+spring mvc é uma especificação que concorre com a comunidade java ee
+como do java ee demorava mais para publicação do que a spring (empresa privada)
+spring 
+
+
+
 
 
 
