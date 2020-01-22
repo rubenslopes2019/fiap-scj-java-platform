@@ -1,1 +1,50 @@
 programação reativa.
+
+Paradigmas de programação:
+orientação a objeto
+reativa
+funcional - x, y --> x + y
+procedural
+
+
+
+javaScript - não é uma linguagem e sim uma especificação. 
+
+
+public float somar(float op1, float op2);
+public float subtrair(float op1, float op2);
+...
+
+/////////////////////////////////////lambda 
+
+public static double Calcular (double a, double b, Operador ....
+
+...
+
+double result = Calculadora.calcular(30d, 70d, (a, b) -> a + b ); // programação funcional
+
+///////////////////////////////////streams
+
+
+tipo de memória temporaria, buffer.
+
+ganha performace
+
+
+Double mediaIdade  = listaCliente.stream()
+.mapToInt(Cliente:: getIdade) >>>>> atalho retorno dessa lista o retorno desse metodo (Cliente -> Cliente.getIdade)
+.avarege() - faz a media
+.getAsDouble() - e gera um double.
+
+listaCliente.forEach(System.out::println);>>>methodo refer
+
+
+assincrono - um processo por vez
+sincrono - processo paralelo
+
+
+
+
+
+
+
