@@ -53,6 +53,11 @@ como do java ee demorava mais para publicação do que a spring (empresa privada
 spring 
 
 
+@anotação injeta dependencia sem precisar se preocupar com a implementação dessa classe
+invertendo o controle, não precisa testar isso.
+
+Maven - orquestrador
+
 
 
 
